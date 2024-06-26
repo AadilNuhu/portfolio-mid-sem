@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background: linear-gradient(to right,navy,blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.logo{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+body{
+    background-color: #f0f0f0;
+}
+.qualification{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.year{
+    float: right;
+    color: #888;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0 40px;
+
+}
+.seminars{
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-evenly;
+}
+.seminars li{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.hobbies{
+    display: block;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}

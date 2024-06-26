@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background: linear-gradient(to right,navy,blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.logo{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+.left{
+    max-width: 300px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    padding-block: 1rem;
+    gap: 1rem;
+    animation: scroll 7s linear infinite;
+}
+.slider img{
+    height: 300px;
+    width: 400px;
+}
+
+@keyframes scroll {
+    to{
+        transform: translate(-240%);
+    }
+}
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+    height: 60vh;
+}
+.homepage .right h2{
+    padding: 30px 0 10px;
+    font-size: 80px;
+    margin: 20px 0;
+}
+.homepage .right p{
+    padding: 10px 0;
+    font-size: 50px;
+    margin: 15px;
+    text-shadow: 1px 1px 1px #000;
+}
+.highlight{
+    color: navy;
+    text-shadow: 3px 2px 5px #000;
+}
+p.about{
+    font-size: 25px;
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    margin: 20px 70px;
+    text-align: center;
+    line-height: 40px;
+}
+.calender{
+    background:linear-gradient(to right,blue,lightblue);
+}
+.courses h3{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-shadow: 2px 1px 2px navy;
+}
+.imageCourses{
+    display: flex;
+    margin: 20px;
+}
+.img_text{
+    text-align: center;
+}
+.imageCourses img{
+    height: 168px;
+    width: 168px;
+    margin: 10px;
+}
+.calender{
+    text-align: center;
+}
+.calender h3{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 60px 0 30px;
+    color: aliceblue;
+    text-shadow: 3px 3px 3px #000;
+}
+.calender img{
+    height: 95vh;
+    width: 75vh;
+    margin: 10px 0 30px;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+.testimony h1{
+    text-align: center;
+    margin: 60px 0 20px;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 1px 2px 8px #000;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+footer i{
+    font-size: 25px;
+    margin: 15px 10px;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+footer i:hover{
+    color: blue;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #c9c9cc;
+}
+::-webkit-scrollbar-thumb{
+    background: blue;
+    border-radius: 30px;
+}
